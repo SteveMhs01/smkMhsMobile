@@ -5,32 +5,13 @@ const Sukses = ({navigation}) => {
   return (
     <View>
       <View>
-      <View
-          style={{
-            flexDirection: 'row',
-            width: 40,
-            height: 40,
-            backgroundColor: '#CA2D2D',
-            borderRadius: 100,
-          }}>
-          <TouchableOpacity onPress={() => navigation.navigate('Home')}>
-            <Image
-              style={{
-                alignSelf: 'center',
-                marginTop: 7,
-                marginLeft: 7,
-              }}
-              source={require('../assets/icons/Frame.png')}
-            />
-          </TouchableOpacity>
-        </View>
         <Image
-          source={require('../assets/images/Sukses.jpeg')}
+          source={require('../assets/images/sukses.png')}
           style={{
             alignSelf: 'center',
             width: 328,
             height: 280,
-            marginTop: 40,
+            marginTop: 60,
             marginBottom: 12,
             borderRadius: 6,
           }}
@@ -41,9 +22,9 @@ const Sukses = ({navigation}) => {
           style={{
             height: 52,
             backgroundColor: '#ED3636',
-            marginHorizontal: 49,
+            marginHorizontal: 16,
             borderRadius: 12,
-            marginTop: 360,
+            marginTop: 414,
             flexDirection: 'row',
             justifyContent: 'space-between',
             alignItems: 'center',
@@ -56,7 +37,7 @@ const Sukses = ({navigation}) => {
               fontSize: 14,
               fontWeight: 'bold',
               color: 'white',
-              marginLeft: 68,
+              marginLeft: 98,
             }}>
             Kembali Ke Menu Utama
           </Text>

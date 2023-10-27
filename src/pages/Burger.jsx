@@ -33,6 +33,7 @@ const Burger = ({navigation}) => {
             />
           </TouchableOpacity>
         </View>
+        <TouchableOpacity onPress={() => navigation.navigate('Home')}>
         <Text
           style={{
             fontFamily: 'DM Sans',
@@ -44,6 +45,7 @@ const Burger = ({navigation}) => {
           }}>
           Kembali
         </Text>
+        </TouchableOpacity>
       </View>
       <Image
         style={{

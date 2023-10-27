@@ -11,7 +11,7 @@ const Sukses = ({navigation}) => {
             alignSelf: 'center',
             width: 328,
             height: 280,
-            marginTop: 60,
+            marginTop: 80,
             marginBottom: 12,
             borderRadius: 6,
           }}
@@ -24,7 +24,7 @@ const Sukses = ({navigation}) => {
             backgroundColor: '#ED3636',
             marginHorizontal: 16,
             borderRadius: 12,
-            marginTop: 414,
+            marginTop: 394,
             flexDirection: 'row',
             justifyContent: 'space-between',
             alignItems: 'center',
